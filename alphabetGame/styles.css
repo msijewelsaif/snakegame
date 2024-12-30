@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #04425b, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #landingPage {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  #landingPage h1 {
+    font-size: 40px;
+    color: #333;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #landingPage p {
+    font-size: 22px;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  #startGameButton {
+    background-color: #FF6347;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  #startGameButton:hover {
+    background-color: #FF4500;
+  }
+  
+  #gameArea {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #354f59;
+    overflow: hidden;
+    display: none;
+  }
+  
+  #gameArea.hidden {
+    display: none;
+  }
+  
+  #basket {
+    width: 140px;
+    height: 20px;
+    background-color: #FF6347;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 70px);
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+
+ 
+  
